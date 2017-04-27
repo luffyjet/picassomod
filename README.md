@@ -2,7 +2,7 @@ Picasso是一个优秀的图片加载框架，体积小，功能强大，但是�
 
 this is a bugfix version for [square/picasso](https://github.com/square/picasso) , base on picasso 2.4 . to fix the [issue 364](https://github.com/square/picasso/issues/364)
 
-see:
+see [NetworkRequestHandler.java](https://github.com/luffyjet/picassomod/blob/master/picasso/src/main/java/com/squareup/picasso/NetworkRequestHandler.java):
  
 ```java
  
