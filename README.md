@@ -1,6 +1,6 @@
 Picasso是一个优秀的图片加载框架，体积小，功能强大，但是在加载个别图片的时候, MarkableInputStream.class 这个类会抛异常。目前修复的方法就是不使用这个类，全部的图片都先加载成bytes再用BitmapFactory.decodeByteArray获取bitmap。对比了修改前后的内存占用情况，差别很小。
 
-this is a bugfix version for [square/picasso](https://github.com/square/picasso) , base on picasso 2.4 . to fix the [issue 364](https://github.com/square/picasso/issues/364)
+this is a bugfix version of [square/picasso](https://github.com/square/picasso) , base on picasso 2.4 . to fix the [issue 364](https://github.com/square/picasso/issues/364)
 
 see [NetworkRequestHandler.java](https://github.com/luffyjet/picassomod/blob/master/picasso/src/main/java/com/squareup/picasso/NetworkRequestHandler.java):
  
