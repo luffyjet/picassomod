@@ -58,6 +58,10 @@ Download
 
 grab via Gradle:
 ```groovy
+repositories {
+    jcenter()
+}
+
 compile 'com.luffyjet:picasso:1.0'
 ```
 or Maven:
